@@ -1,6 +1,6 @@
 # Good-Music
     Do you listen music? You would find some good recommendations here curated by me, with various genre.
-   * Created by Codesandbox.
+   * Created by Codesandbox using reactJs, html, css.
     
   ## About
   Explore playlist based on various music genre, timeline ranging from retro to modern.
