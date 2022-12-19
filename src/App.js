@@ -105,7 +105,8 @@ export default function App() {
                 border: "1px solid #D1D5DB",
                 width: "30%",
                 margin: "1rem 28rem",
-                borderRadius: "0.5rem"
+                borderRadius: "0.5rem",
+                backgroundColor: "lightblue"
               }}
             >
               {" "}
