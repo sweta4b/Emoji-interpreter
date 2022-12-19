@@ -3,17 +3,42 @@ import React, { useState } from "react";
 
 const song = {
   Gazal: [
-    { name: "Tum Itna Jo Muskura Rahe Ho", rating: "4.5/5" },
-    { name: "Jhuki Jhuki si Nazar", rating: "4/5" }
+    {
+      name: "Tum Itna Jo Muskura Rahe Ho",
+      rating: "4.5/5",
+      singer: "Jagjit-singh",
+      album: "Arth"
+    },
+    {
+      name: "Jhuki Jhuki si Nazar",
+      rating: "4/5",
+      singer: "Jagjit-singh",
+      album: "Arth"
+    }
   ],
   English: [
-    { name: "Shape of you", rating: "4.5" },
-    { name: "A Thousand Years", rating: "4/5" },
-    { name: "Memories", rating: "4/5" }
+    {
+      name: "Shape of you",
+      rating: "4.5",
+      singer: "Ed Sheeran",
+      album: "Divide"
+    },
+    {
+      name: "A Thousand Years",
+      rating: "4/5",
+      singer: "Christina Perri",
+      album: "The Twilight Saga: Breaking Dawn, Part 1: The Score"
+    },
+    { name: "Memories", rating: "4/5", singer: "Maroon 5", album: "Jordi" }
   ],
   Retro: [
-    { name: "Wake me up", rating: "4.5/5" },
-    { name: "Yaddon ki baraat", rating: "4.5/5" }
+    { name: "Wake me up", rating: "4.5/5", singer: "Avicii", album: "True" },
+    {
+      name: "Yaadon ki baraat",
+      rating: "4.5/5",
+      singer: "Kishore Kumar, Mohammed Rafi",
+      album: "Yaadon ki baraat "
+    }
   ]
 };
 
@@ -25,7 +50,7 @@ export default function App() {
   return (
     <div className="App">
       <h1>🎶 GoodMusic 🎶</h1>
-      <p>🎶Checkout my favorite song here, select the category to start🎶</p>
+      <p>🎶 Checkout my favorite song here, select the category to start 🎶</p>
 
       <div>
         {Object.keys(song).map((category) => (
@@ -56,19 +81,22 @@ export default function App() {
                 border: "1px solid #D1D5DB",
                 width: "30%",
                 margin: "1rem 28rem",
-                borderRadius: "0.5rem"
+                borderRadius: "0.5rem",
+                backgroundColor: "beige"
               }}
             >
               {" "}
               <div style={{ fontSize: "larger" }}> {song.name} </div>
               <div style={{ fontSize: "smaller" }}> {song.rating} </div>
+              <div style={{ fontSize: "smaller" }}> singer: {song.singer} </div>
+              <div style={{ fontSize: "smaller" }}> album: {song.album} </div>
             </li>
           ))}
         </ul>
       </div>
       <hr />
       <p>
-        🎶Life is all about <strong>Good Music</strong>🎶
+        🎶 Life is all about <strong>Good Music </strong>🎶
       </p>
     </div>
   );
