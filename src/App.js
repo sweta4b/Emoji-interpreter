@@ -11,11 +11,18 @@ const song = {
     },
     {
       name: "Jhuki Jhuki si Nazar",
-      rating: "4/5",
+      rating: "4.3/5",
       singer: "Jagjit-singh",
       album: "Arth"
+    },
+    {
+      name: "Hoshwalon Ko Khabar Kya",
+      rating: "4.9/5",
+      singer: "Jagjit-singh",
+      album: "Sarfarosh"
     }
   ],
+
   English: [
     {
       name: "Shape of you",
@@ -29,15 +36,32 @@ const song = {
       singer: "Christina Perri",
       album: "The Twilight Saga: Breaking Dawn, Part 1: The Score"
     },
-    { name: "Memories", rating: "4/5", singer: "Maroon 5", album: "Jordi" }
+    {
+      name: "Memories",
+      rating: "4/5",
+      singer: "Maroon 5",
+      album: "Jordi"
+    }
   ],
+
   Retro: [
-    { name: "Wake me up", rating: "4.5/5", singer: "Avicii", album: "True" },
+    {
+      name: "Aajkal Tere Mere Pyaar Ke Charche",
+      rating: "4.5/5",
+      singer: "Mohammed Rafi",
+      album: "Brahmachari"
+    },
     {
       name: "Yaadon ki baraat",
-      rating: "4.5/5",
+      rating: "4.2/5",
       singer: "Kishore Kumar, Mohammed Rafi",
-      album: "Yaadon ki baraat "
+      album: "Yaadon ki baraat"
+    },
+    {
+      name: "Mere Sapno ki Rani",
+      rating: "4.7/5",
+      singer: "Kishore Kumar",
+      album: "Aradhana"
     }
   ]
 };
@@ -81,8 +105,7 @@ export default function App() {
                 border: "1px solid #D1D5DB",
                 width: "30%",
                 margin: "1rem 28rem",
-                borderRadius: "0.5rem",
-                backgroundColor: "beige"
+                borderRadius: "0.5rem"
               }}
             >
               {" "}
