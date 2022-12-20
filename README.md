@@ -1,6 +1,8 @@
 # Good-Music
     Do you listen music? You would find some good recommendations here curated by me, with various genre.
-   * Created by Codesandbox using reactJs, html, css.
+    
+  ## Tech Stack
+   * This app is created using ReactJS, HTML and CSS in CodeSandbox.io IDE.
     
   ## About
   Explore playlist based on various music genre, timeline ranging from retro to modern.
