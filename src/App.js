@@ -104,7 +104,7 @@ export default function App() {
                 padding: "1rem",
                 border: "1px solid #D1D5DB",
                 width: "30%",
-                margin: "1rem 28rem",
+                margin: "1rem auto",
                 borderRadius: "0.5rem",
                 backgroundColor: "lightblue"
               }}
